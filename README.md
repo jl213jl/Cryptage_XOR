@@ -1,11 +1,19 @@
-# Cryptage_XOR
-Hello ! Im JL213JL !
+#  Cryptage XOR (via SHA-256)
 
-I create this script to crypt and decrypt some File.
+Salut ! Je suis **JL213JL**.  
+J'ai conçu ce script Python pour permettre de crypter et décrypter n'importe quel fichier de manière simple et efficace.
 
-# To The Code:
-Just need to choose a file to crypt it in an other file and add the key you will use.
+---
 
-To Decrypt you just need to choose the crypt file and choose an other file to get the first message.
+##  Présentation
+Ce script utilise l'opération logique **XOR** combinée à un hachage **SHA-256** de votre clé pour transformer vos données. La robustesse vient du fait que même une clé courte génère une empreinte de 32 octets (256 bits) pour le processus de chiffrement.
 
-!!TO DECRYPT YOU NEED TO USE THE SAME KEY TO USE FOR ENCRYPTION!!
+##  Comment ça marche ?
+
+1. **Input :** Indiquez le nom du fichier source (ex: `photo.jpg`).
+2. **Output :** Indiquez le nom du fichier de destination (ex: `photo_cryptee.dat`).
+3. **Clé :** Entrez votre mot de passe secret.
+
+> [!IMPORTANT]
+> **POUR DÉCRYPTER :** Vous devez impérativement utiliser la **MÊME CLÉ** que celle utilisée lors du cryptage. Le processus est symétrique.
+
